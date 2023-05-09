@@ -1,10 +1,8 @@
 package Units;
 //крестьянин
 public class Peasant extends BaseUnits {
-    private String typeName;
     public Peasant(String name){
-        super(name, 80, 3, 0, 1, 4);
-        typeName = "Peasant";
+        super(name,"Peasant", 80, 3, 0, 1, 4);
     }
 
     @Override

@@ -1,11 +1,10 @@
 package Units;
 //снайпер
 public class Sniper extends BaseUnits {
-    private String typeName;
     public Sniper(String name){
-        super(name, 200, 2, 2, 1, 16);
-        typeName = "Sniper";
+        super(name,"Sniper", 200, 2, 2, 1, 16);
     }
+
 
     @Override
     public String toString() {
